@@ -8,8 +8,20 @@
     min-height: 500px;
 
     .logo {
-        display: block;
-        padding: 8px 0;
+        display: flex;
+        padding: 20px 2px;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+
+        .logo-text-1 {
+            color: #fff;
+            font-size: 40px;
+            font-family: "Helvetica";
+            font-weight: 700;
+            text-shadow: -3px 0px #ffd700;
+            transform: scale(.7, 1);
+        }
 
         img {
             display: block;
