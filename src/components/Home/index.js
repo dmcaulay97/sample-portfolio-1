@@ -9,13 +9,14 @@ import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
+    const nameArray = ['y', 'l', 'a', 'n']
+    const lastNameArray = ['c', 'A', 'u', 'l', 'a', 'y']
     const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
     useEffect(() => {
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 4000)
+        }, 5000)
 
         return () => {
             clearTimeout(timeoutId)
@@ -32,17 +33,19 @@ const Home = () => {
                         <br />
                         <span className={`${letterClass} _13`}>I</span>
                         <span className={`${letterClass} _14`}>'m</span>
-                        <img src={LogoTitle} alt="developer" />
+                        <span className='first-letter'>D</span>
                         <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
+                        <span className='first-letter'>M</span>
+                        <AnimatedLetters letterClass={letterClass} strArray={lastNameArray} idx={20} />
                         <br />
-                        <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
+                        <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={27} />
                     </h1>
-                    <h2>Frontend Developer / Javascript Expert / Youtuber</h2>
+                    <h2>Frontend Developer / Javascript Expert</h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
                 {/* <Logo /> */}
             </div>
-            <Loader type='pacman' />
+            <Loader type='cube-transition' />
         </>
     );
 }

@@ -1,0 +1,13 @@
+Portfolio additions
+
+New color scheme
+
+replace fancy tags with something else (https://bestofreactjs.com/repo/gerardmarquinarubio-ReactTypewriter)
+
+add cool element on right side of home page
+
+add txt to aabout and contact
+
+add link to resume
+
+add breakpoints

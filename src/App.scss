@@ -2,6 +2,8 @@ $primary-color: #ffd700;
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
+@import '~loaders.css/src/animations/cube-transition.scss';
+
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -18,6 +20,11 @@ $primary-color: #ffd700;
   font-family: 'Coolvetica';
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
     url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Arcade Classic';
+  src: url('./assets/fonts/ArcadeClassic.ttf') format('ttf')
 }
 
 input,

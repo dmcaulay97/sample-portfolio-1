@@ -47,6 +47,17 @@
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
         }
+
+        .first-letter {
+            color: #115173;
+            font-size: 60px;
+            font-family: "Helvetica";
+            font-weight: 900;
+            text-shadow: -4px 0px #ffd700;
+            transform: scale(.5, 1);
+            margin-left: 15px;
+            animation: fadeIn 1s 1.8s backwards;
+        }
     }
 
     h2 {
