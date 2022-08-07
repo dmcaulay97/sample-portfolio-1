@@ -12,6 +12,8 @@ const Home = () => {
     const nameArray = ['y', 'l', 'a', 'n']
     const lastNameArray = ['c', 'A', 'u', 'l', 'a', 'y']
     const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
+    const web = ['w', 'e', 'b']
+    const developer = ['d', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
     useEffect(() => {
         let timeoutId = setTimeout(() => {
@@ -35,10 +37,18 @@ const Home = () => {
                         <span className={`${letterClass} _14`}>'m</span>
                         <span className='first-letter'>D</span>
                         <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
-                        <span className='first-letter'>M</span>
+                        <br className='mcaulay-break' />
+                        <span className='first-letter big-m'>M</span>
                         <AnimatedLetters letterClass={letterClass} strArray={lastNameArray} idx={20} />
                         <br />
-                        <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={27} />
+                        <div className="web-developer">
+                            <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={27} />
+                        </div>
+                        <div className="web-developer-break">
+                            <AnimatedLetters letterClass={letterClass} strArray={web} idx={26} />
+                            <br />
+                            <AnimatedLetters letterClass={letterClass} strArray={developer} idx={31} />
+                        </div>
                     </h1>
                     <h2>Frontend Developer / Javascript Expert</h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>

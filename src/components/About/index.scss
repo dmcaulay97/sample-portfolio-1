@@ -84,3 +84,13 @@
         transform: rotateX(90deg);
     }
 }
+
+@media (max-width: 768px) {
+    .about-text-zone {
+        width: 80% !important;
+    }
+
+    .stage-cube-cont {
+        display: none;
+    }
+}

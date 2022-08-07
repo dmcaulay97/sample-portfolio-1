@@ -81,10 +81,10 @@
 .info-map {
     position: absolute;
     background-color: #000;
-    top: 50px;
-    right: 30%;
+    bottom: 0;
+    right: 0;
     z-index: 999999;
-    width: 267px;
+    width: 170px;
     padding: 20px;
     color: #fff;
     font-family: 'Helvetica';
@@ -93,6 +93,7 @@
     opacity: 0;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
+
 
     span {
         font-size: 16px;
@@ -117,4 +118,24 @@
     opacity: 0;
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
+}
+
+@media (max-width: 948px) {
+    .map-wrap {
+        display: none;
+    }
+
+    .info-map {
+        display: none;
+    }
+
+    .contact-text-zone {
+        width: 85% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-text-zone {
+        top: 56% !important;
+    }
 }
