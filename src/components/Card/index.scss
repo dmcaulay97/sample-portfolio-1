@@ -1,0 +1,49 @@
+.card-container {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    .card {
+        height: 90%;
+        width: 90%;
+        border: solid #ffd700 5px;
+        border-radius: 20px;
+        // background-size: 159% 112%;
+        background-position: center;
+
+        .overlay {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, .8);
+            border-radius: 20px;
+            transition: background-color;
+            transition-duration: .5s;
+
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0);
+            }
+
+            &:hover h2 {
+                color: rgba(255, 255, 255, 0)
+            }
+
+            h2 {
+                font-size: 40px;
+                color: #fff;
+                transition: color;
+                transition-duration: .5s;
+            }
+        }
+    }
+}
+
+@media(max-width: 480px) {
+    .card-container {
+        width: 100%
+    }
+}

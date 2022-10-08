@@ -107,6 +107,12 @@
                 color: #ffd700;
             }
         }
+
+        a.projects-link {
+            &:after {
+                content: "Projects"
+            }
+        }
     }
 
     ul {
@@ -174,7 +180,7 @@
             height: 51px;
             position: relative;
             text-decoration: none;
-            padding: 0px 40px;
+            padding: 0px 30px;
 
             i {
                 transition: all 0.3s ease-out;
@@ -265,7 +271,7 @@
     .mobile-nav-bar {
         nav {
             a {
-                padding: 0px 20px;
+                padding: 0px 10px;
             }
         }
 

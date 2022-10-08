@@ -31,13 +31,13 @@ const About = () => {
                             idx={15} />
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Full Stack Web Developer, with degrees in Applied Mathematics and Physics, bringing an analytical lens to building websites and online tools.
                     </p>
                     <p>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Earned a certificate in Full Stack Web Development from the University of Connecticut Coding Boot Camp.
                     </p>
                     <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Dependable problem-solver with a passion for detail-oriented design. Strengths in analytical thinking, communication, and adaptability.
                     </p>
                 </div>
 

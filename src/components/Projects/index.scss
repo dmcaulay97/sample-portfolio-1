@@ -1,0 +1,27 @@
+.projects-container {
+    width: 70%;
+    height: 100%;
+    top: 0;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    // overflow: hidden;
+    // background: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+    .projects-container {
+        width: 93%;
+        top: 21px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        height: 95%;
+        width: 100%;
+        top: 30px;
+    }
+}
