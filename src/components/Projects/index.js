@@ -5,6 +5,7 @@ import Loader from 'react-loaders';
 import Card from '../Card'
 import img1 from '../../assets/images/project-img1.png'
 import img2 from '../../assets/images/project-img2.png'
+import img3 from '../../assets/images/project-img3.png'
 
 const Projects = () => {
 
@@ -21,22 +22,25 @@ const Projects = () => {
     }, [])
 
     return (
-        <div className="container projects-page">
-            <div className="text-zone projects-text-zone">
-                <h1>
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={['P', 'r', 'o', 'j', 'e', 'c ', 't', 's']}
-                        idx={15} />
-                </h1>
+        <>
+            <div className="container projects-page">
+                <div className="text-zone projects-text-zone">
+                    <h1>
+                        <AnimatedLetters
+                            letterClass={letterClass}
+                            strArray={['P', 'r', 'o', 'j', 'e', 'c ', 't', 's']}
+                            idx={15} />
+                    </h1>
+                </div>
+                <div className="projects-container">
+                    <Card title="Tic-Tac-Toe" img={img1} height="159" width="112" link='https://dmcaulay97.github.io/better-tic-tac-toe/' />
+                    <Card title='Movie Search' img={img2} height="100" width='100' link='https://dmcaulay97.github.io/movie-search/' />
+                    <Card title='Pace Calculator' img={img3} height="100" width='100' link='https://dmcaulay97.github.io/Pace-calculator/' />
+                    <Card title='Coming Soon' />
+                </div>
             </div>
-            <div className="projects-container">
-                <Card title="Tic-Tac-Toe" img={img1} height="159" width="112" link='https://dmcaulay97.github.io/better-tic-tac-toe/' />
-                <Card title='Movie Search' img={img2} height="100" width='100' link='https://dmcaulay97.github.io/movie-search/' />
-                <Card />
-                <Card />
-            </div>
-        </div>
+            <Loader type='cube-transition' />
+        </>
     )
 }
 

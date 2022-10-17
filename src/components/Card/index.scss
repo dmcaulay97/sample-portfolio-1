@@ -9,7 +9,6 @@
         width: 90%;
         border: solid #ffd700 5px;
         border-radius: 20px;
-        // background-size: 159% 112%;
         background-position: center;
 
         .overlay {
@@ -29,7 +28,7 @@
             }
 
             &:hover h2 {
-                color: rgba(255, 255, 255, 0)
+                color: rgba(255, 255, 255, .3)
             }
 
             h2 {
