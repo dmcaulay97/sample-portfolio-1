@@ -6,6 +6,7 @@ import Card from '../Card'
 import img1 from '../../assets/images/project-img1.png'
 import img2 from '../../assets/images/project-img2.png'
 import img3 from '../../assets/images/project-img3.png'
+import img4 from '../../assets/images/project-img4.png'
 
 const Projects = () => {
 
@@ -36,7 +37,7 @@ const Projects = () => {
                     <Card title="Tic-Tac-Toe" img={img1} height="159" width="112" link='https://dmcaulay97.github.io/better-tic-tac-toe/' />
                     <Card title='Movie Search' img={img2} height="100" width='100' link='https://dmcaulay97.github.io/movie-search/' />
                     <Card title='Pace Calculator' img={img3} height="100" width='100' link='https://dmcaulay97.github.io/Pace-calculator/' />
-                    <Card title='Coming Soon' />
+                    <Card title='Mandala' img={img4} height="100" width='100' link='https://dmcaulay97.github.io/mandala/' />
                 </div>
             </div>
             <Loader type='cube-transition' />
