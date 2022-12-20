@@ -37,7 +37,7 @@ const Projects = () => {
                     <Card title="Tic-Tac-Toe" img={img1} height="159" width="112" link='https://dmcaulay97.github.io/better-tic-tac-toe/' />
                     <Card title='Movie Search' img={img2} height="100" width='100' link='https://dmcaulay97.github.io/movie-search/' />
                     <Card title='Pace Calculator' img={img3} height="100" width='100' link='https://dmcaulay97.github.io/Pace-calculator/' />
-                    <Card title='Mandala' img={img4} height="100" width='100' link='https://dmcaulay97.github.io/mandala/' />
+                    <Card title='Wordle-Clone' img={img4} height="100" width='100' link='https://dmcaulay97.github.io/wordle-clone/' />
                 </div>
             </div>
             <Loader type='cube-transition' />
